@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+
+}
+
+@layer base {
+    main::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+@layer components {
+    .main::-webkit-scrollbar {
+        display:none;
+    }
+    .input button {
+        padding: 2rem 4rem;
+    }
+    .tinyText {
+        font-size: 0.6rem;
+    }
+    .veryTinyText {
+        font-size: 0.47rem;
+    }
+    .labelText {
+        font-size: 0.3rem
+    }
+    .superTinyText {
+        font-size: 0.2rem;
+    }
+    .tippy-svg-arrow {
+        transform: translate3d(16px, -32px, 0px);
+    }
+    .receiptEdgesShadow {
+        filter: drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));
+    }
+    .receiptEdges {
+        --mask:
+                linear-gradient(#000000, black) center/100% calc(100% - 16px) no-repeat,
+                conic-gradient(from 135deg at top,#0000,#000 1deg 89deg,#0000 90deg) top/16px 8px repeat-x,
+                conic-gradient(from -45deg at bottom,#0000,#000 1deg 89deg,#0000 90deg) bottom/16px 8px repeat-x;
+        -webkit-mask: var(--mask);
+        mask: var(--mask);
+
+    }
+}
+
+@font-face {
+    font-family: 'Intro';
+    src: local('Intro'), url(../fonts/intro-webfont.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Monofur';
+    src: local('Monofur'), url(../fonts/monof55-webfont.woff) format('woff');
+}
+
+@media print {
+    .boxLabel, .countTicket {
+        clear: both;
+        break-after: page;
+        page-break-after: always;
+    }
+    @page {
+        size: landscape;
+    }
+}

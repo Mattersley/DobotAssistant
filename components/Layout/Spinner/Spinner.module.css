@@ -1,0 +1,76 @@
+.Spinner {
+    display: inline-block;
+    left: 45vw;
+    margin: 0;
+    position: absolute;
+    top: 45vh;
+    width: 59px;
+    height: 59px;
+}
+
+.SpinnerRelative {
+    display: inline-block;
+    margin: 0;
+    position: relative;
+    width: 59px;
+    height: 59px;
+}
+
+.SpinnerRelative div, .Spinner div {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background: #800080;
+    border-radius: 50%;
+    animation: spinner 1s linear infinite;
+}
+.SpinnerRelative div:nth-child(1), .Spinner div:nth-child(1) {
+    animation-delay: 0s;
+    top: 19px;
+    left: 45px;
+}
+.Spinner div:nth-child(2), .SpinnerRelative div:nth-child(2) {
+    animation-delay: -0.125s;
+    top: 4px;
+    left: 38px;
+}
+.Spinner div:nth-child(3), .SpinnerRelative div:nth-child(3) {
+    animation-delay: -0.25s;
+    top: 0;
+    left: 23px;
+}
+.Spinner div:nth-child(4), .SpinnerRelative div:nth-child(4) {
+    animation-delay: -0.375s;
+    top: 4px;
+    left: 8px;
+}
+.Spinner div:nth-child(5), .SpinnerRelative div:nth-child(5) {
+    animation-delay: -0.5s;
+    top: 21px;
+    left: 0;
+}
+.Spinner div:nth-child(6), .SpinnerRelative div:nth-child(6) {
+    animation-delay: -0.625s;
+    top: 35px;
+    left: 8px;
+}
+.Spinner div:nth-child(7), .SpinnerRelative div:nth-child(7) {
+    animation-delay: -0.75s;
+    top: 43px;
+    left: 23px;
+}
+.Spinner div:nth-child(8), .SpinnerRelative div:nth-child(8) {
+    animation-delay: -0.875s;
+    top: 35px;
+    left: 38px;
+}
+
+
+@keyframes spinner {
+    0%, 20%, 80%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.5);
+    }
+}
