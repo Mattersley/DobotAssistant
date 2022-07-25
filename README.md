@@ -2,37 +2,39 @@
 ![DobotAssistantLogo](./public/ReadmeImages/DobotHeader.png)
 ___
 
-<div style="display: block; text-align: center; margin: 0 auto;">In-progress full-suite enterprise responsive web application for bakeries and small food based delivery businesses.
-Modules for kitchen and recipe management, inventory management, packaging and printing labels, and delivery route maps/optimization with automated customer email notifications. Integrates with WordPress and Woocommerce GraphQL endpoints to obtain order information. Shopify integration in the pipeline.
+In-progress full-suite enterprise responsive web application for bakeries and small food based delivery businesses.
+Modules for kitchen and recipe management, inventory management, packaging and printing labels, and delivery route maps/optimization with automated customer email notifications. Integrates with WordPress and Woocommerce GraphQL endpoints to obtain order information. Shopify integration in the pipeline.<br>
 
 The main objective is to increase success and sales of local small food delivery businesses and the bakery/pâtisserie industry.
 
-<p style="font-size: xxx-large; text-align: center">🧑‍💻 → 🧾 → 👩‍🍳 → 🧁 🍩 🍞 🍪 → 📦 → 🚚 →  😁</p>
-</div>
-
+# 🧑‍💻 → 🧾 → 👩‍🍳 → 🧁 🍩 🍞 🍪 → 📦 → 🚚 →  😁<br><br>
 <div style="margin: 0 auto; display: inline-flex;">
 <img style="margin: 0 auto" src="./public/ReadmeImages/Login.png" width="70%" alt="Login Screen Screenshot"/>
 <img style="margin: 0 auto" src="./public/ReadmeImages/LoginMobile.png" width="22%" alt="Login Screen Mobile Screenshot"/>
 </div>
 
+<br>
+
 ![A list of frameworks used in the project](./public/ReadmeImages/ServicesPadding.png)
 
 ## 1.0 Overview
-Upon login, the app makes requests to Woocommerce/WordPress REST endpoints to obtain order information. This is then reformatted into an object organised by delivery date. This is the one source of truth for the "Delivery Date" dropdown which changes all the information displayed in the UI. The order information is sensitive (customer addresses, etc.) and is never set into local storage.
+Upon login, the app makes requests to Woocommerce/WordPress REST endpoints to obtain order information. This is then reformatted into an object organised by delivery date. This is the one source of truth for the "Delivery Date" dropdown which changes all the information displayed in the UI. The order information is sensitive (customer addresses, etc.) and is never set into local storage.<br>
 
-Upon login, requests are also made to the Mapbox API to geocode addresses, ready for route optimisation. Recipes and inventory information is obtained from Firebase.
+Upon login, requests are also made to the Mapbox API to geocode addresses, ready for route optimisation. Recipes and inventory information is obtained from Firebase.<br>
 
 ![API Flowchart](./public/ReadmeImages/APIDobot.png)
 
 ## 2.0 Dashboard
-Screenshots of dashboard in progress. There will be a widget selector with various options in the final version.
+Screenshots of dashboard in progress. There will be a widget selector with various options in the final version.<br>
+
 <div style="margin: 0 auto; display: inline-flex;">
 <img style="margin: 0 auto" src="./public/ReadmeImages/Dashboard.png" width="70%" alt="Dashboard Screen Screenshot"/>
 <img style="margin: 0 auto" src="./public/ReadmeImages/DashboardMobile.png" width="22%" alt="Dashboard Screen Mobile Screenshot"/>
 </div>
 
 ## 3.0 Inventory
-Linked to firebase database. Successful edits notified to user via toasts. The card background fill is a visual representation of the number of items in stock versus par level. Options to track suppliers, expiry dates, categories. Duplicate, delete, edit, view history via popup menu. 
+Linked to firebase database. Successful edits notified to user via toasts. The card background fill is a visual representation of the number of items in stock versus par level. Options to track suppliers, expiry dates, categories. Duplicate, delete, edit, view history via popup menu.<br>
+
 <div style="margin: 0 auto; display: inline-flex;">
 <img style="margin: 0 auto" src="./public/ReadmeImages/Inventory.png" width="70%" alt="Login Screen Screenshot"/>
 <img style="margin: 0 auto" src="./public/ReadmeImages/InventoryMobile.png" width="22%" alt="Login Screen Mobile Screenshot"/>
@@ -40,16 +42,17 @@ Linked to firebase database. Successful edits notified to user via toasts. The c
 
 
 ## 4.0 Orders
-Order browser. Important information per delivery day on toolbar.
+Order browser. Important information per delivery day on toolbar.<br>
+
 <div style="margin: 0 auto; display: inline-flex;">
 <img style="margin: 0 auto" src="./public/ReadmeImages/OrdersEdit.png" width="70%" alt="Dashboard Screen Screenshot"/>
 </div>
 
 
 ## 5.0 Deliver
-Optimized delivery route provided by Mapbox API. Step by step directions and prompts included. User location provided via browser Geolocation API. 
+Optimized delivery route provided by Mapbox API. Step by step directions and prompts included. User location provided via browser Geolocation API.<br>
 
-Email prompts for 30 minute delivery window and completed delivery via buttons. 
+Email prompts for 30 minute delivery window and completed delivery via buttons.<br>
 
 <div style="margin: 0 auto; display: inline-flex;">
 <img style="margin: 0 auto" src="./public/ReadmeImages/Deliver.png" width="70%" alt="Login Screen Screenshot"/>
