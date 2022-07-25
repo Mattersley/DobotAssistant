@@ -1,13 +1,12 @@
 
 ![DobotAssistantLogo](./public/ReadmeImages/DobotHeader.png)
-___
 
+## 🧑‍💻 → 🧾 → 👩‍🍳 → 🧁 🍩 🍞 🍪 → 📦 → 🚚 →  😁<br><br>
 In-progress full-suite enterprise responsive web application for bakeries and small food based delivery businesses.
 Modules for kitchen and recipe management, inventory management, packaging and printing labels, and delivery route maps/optimization with automated customer email notifications. Integrates with WordPress and Woocommerce GraphQL endpoints to obtain order information. Shopify integration in the pipeline.<br>
 
 The main objective is to increase success and sales of local small food delivery businesses and the bakery/pâtisserie industry.
 
-# 🧑‍💻 → 🧾 → 👩‍🍳 → 🧁 🍩 🍞 🍪 → 📦 → 🚚 →  😁<br><br>
 <div style="margin: 0 auto; display: inline-flex;">
 <img style="margin: 0 auto" src="./public/ReadmeImages/Login.png" width="70%" alt="Login Screen Screenshot"/>
 <img style="margin: 0 auto" src="./public/ReadmeImages/LoginMobile.png" width="22%" alt="Login Screen Mobile Screenshot"/>
