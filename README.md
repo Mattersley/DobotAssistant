@@ -2,11 +2,13 @@
 ![DobotAssistantLogo](./public/ReadmeImages/DobotHeader.png)
 ___
 
-<div style="display: block; text-align: center; margin: 0 auto;">In-progress full-suite enterprise responsive web application for bakeries and small food based delivery business.
+<div style="display: block; text-align: center; margin: 0 auto;">In-progress full-suite enterprise responsive web application for bakeries and small food based delivery businesses.
 Modules for kitchen and recipe management, inventory management, packaging and printing labels, and delivery route maps/optimization with automated customer email notifications. Integrates with WordPress and Woocommerce GraphQL endpoints to obtain order information. Shopify integration in the pipeline.
 
-The main objective is to increase success and sales of local small food delivery businesses and the bakery/pâtisserie industry.</div>
+The main objective is to increase success and sales of local small food delivery businesses and the bakery/pâtisserie industry.
 
+<p style="font-size: xxx-large; text-align: center">🧑‍💻 → 🧾 → 👩‍🍳 → 🧁 🍩 🍞 🍪 → 📦 → 🚚 →  😁</p>
+</div>
 
 <div style="margin: 0 auto; display: inline-flex;">
 <img style="margin: 0 auto" src="./public/ReadmeImages/Login.png" width="70%" alt="Login Screen Screenshot"/>
@@ -30,7 +32,7 @@ Screenshots of dashboard in progress. There will be a widget selector with vario
 </div>
 
 ## 3.0 Inventory
-Linked to firebase database. Successful edits notified to user via toasts. Visual representation of number of items in stock vs par via card background fill. Options to track suppliers, expiry dates, categories. Duplicate, delete, edit, view history via popup menu. 
+Linked to firebase database. Successful edits notified to user via toasts. The card background fill is a visual representation of the number of items in stock versus par level. Options to track suppliers, expiry dates, categories. Duplicate, delete, edit, view history via popup menu. 
 <div style="margin: 0 auto; display: inline-flex;">
 <img style="margin: 0 auto" src="./public/ReadmeImages/Inventory.png" width="70%" alt="Login Screen Screenshot"/>
 <img style="margin: 0 auto" src="./public/ReadmeImages/InventoryMobile.png" width="22%" alt="Login Screen Mobile Screenshot"/>
