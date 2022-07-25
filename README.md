@@ -1,7 +1,5 @@
 
-<img style="display: block; margin: 5% auto 2% auto; text-align: center;" src="./public/images/DobotConstruction.svg" height="110"  alt="DobotAssistantLogo"/>
-
-<img style="display: block; margin: 0 auto; text-align: center;" src="./public/ReadmeImages/DobotAssistant.png" />
+![DobotAssistantLogo](./public/ReadmeImages/DobotHeader.png)
 ___
 
 <div style="display: block; text-align: center; margin: 0 auto;">In-progress full-suite enterprise responsive web application for bakeries and small food based delivery business.
@@ -15,7 +13,7 @@ The main objective is to increase success and sales of local small food delivery
 <img style="margin: 0 auto" src="./public/ReadmeImages/LoginMobile.png" width="22%" alt="Login Screen Mobile Screenshot"/>
 </div>
 
-<img style="display: block; margin: 0 auto; text-align: center;" src="./public/ReadmeImages/Services.png" alt="A list of frameworks used in the project" width="400" />
+![A list of frameworks used in the project](./public/ReadmeImages/ServicesPadding.png)
 
 ## 1.0 Overview
 Upon login, the app makes requests to Woocommerce/WordPress REST endpoints to obtain order information. This is then reformatted into an object organised by delivery date. This is the one source of truth for the "Delivery Date" dropdown which changes all the information displayed in the UI. The order information is sensitive (customer addresses, etc.) and is never set into local storage.
