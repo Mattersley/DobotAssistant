@@ -91,9 +91,9 @@ API validation, Captchas, Input sanitization, WAF & URL parsing. Research:
 ## 10.0 Future Directions
 Research:
 
-[Storybook.js](https://www.learnstorybook.com)
+[React Native](https://reactnative.dev/docs/integration-with-existing-apps) for increasing mobile usability.
 
-[PWA - Workbox](https://developers.google.com/web/tools/workbox/modules/workbox-webpack-plugin)<br>
+[Ionic Framework Guide to PWA](https://ionicframework.com/docs/react/pwa)
 <br>
 
 <br><p style="text-align: center; font-size: x-large">🧑‍💻 → 🧾 → 👩‍🍳 → 🧁 🍩 🍞 🍪 → 📦 → 🚚 →  😁</p><br>
